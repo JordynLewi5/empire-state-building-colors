@@ -12,7 +12,7 @@ The color description and corresponding hex codes are saved to a map in `src/col
 
 4. You will need to retrieve your own [OpenAI API key](https://openai.com/blog/openai-api).
 
-5. Paste your API key into the empty string found in `config.json` in the root directory of the project.
+5. Paste your API key into the string "YOUR_API_KEY" found in `config.json` in the root directory of the project.
 
 6. Run `node index.js` to execute.
 
