@@ -15,6 +15,9 @@ async function main() {
     const hexCodeMessage = await getHexCode(colorDescription);
     const hexCodeArray = parseHexCodes(hexCodeMessage);
     console.log(hexCodeArray);
+
+    // Your code here
+
 }
 
 /**
@@ -27,7 +30,7 @@ async function grabESBColor() {
     const $ = cheerio.load(ESBResponseText);
     // Fetch the element by class name
     const colorDescription = $('.light-type').text();
-    return "Peanut butter brown";
+    return colorDescription;
 }
 
 /**
@@ -45,7 +48,6 @@ async function getHexCode(colorDescription) {
         max_tokens: 64,
         temperature: 0,
     });
-    console.log(response.data.choices);
     return response.data.choices[0].message.content;
 }
 
