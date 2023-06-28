@@ -22,4 +22,4 @@ Fetches the current color scheme for the lights on the [Empire State Building](h
 
 
 ## OpenAI API Caveats
-The OpenAI API is not free, however it is not necessarily expensive either. Pricing varies based on the model that you choose to run, however it is recommended to not change the current model used (gpt-3.5-turbo), as it on the cheaper end with high accuracy. Generally speaking, it should not cost more than a few cents per year.
+The OpenAI API is not free, however it is not necessarily expensive either. Pricing varies based on the model that you choose to run, however it is recommended to not change the current model used (gpt-3.5-turbo), as it on the cheaper end with high accuracy. Generally speaking, it should not cost more than a few cents per year if this executes once per day.
