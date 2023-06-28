@@ -9,7 +9,7 @@ Fetches the current color scheme for the lights on the [Empire State Building](h
 
 [ '#002D72', '#FF5910', '#FFFFFF' ]
 
-## How to Use (IMPORTANT!)
+## How to Use (Important!)
 1. Make sure [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) is installed on your machine.
 
 2. Navigate to the project directory and run `npm install` to install all dependecies.
