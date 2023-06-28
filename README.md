@@ -13,6 +13,7 @@ Fetches the current color scheme for the lights on the [Empire State Building](h
 Make sure [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) is installed on your machine.
 
 *If the node modules are not installed:*
+
 Navigate to the project directory and run `npm install` to install all dependecies.
 
 You will need to retrieve your own [OpenAI API key](https://openai.com/blog/openai-api).
