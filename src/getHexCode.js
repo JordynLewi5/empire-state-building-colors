@@ -20,15 +20,15 @@ async function getHexCode(colorDescription) {
     const promptMsg = `Provide simple hex code(s) for the color scheme: "${colorDescription}".`;
     
     const response = await openai.createChatCompletion({
-      model: "gpt-3.5-turbo",
+      model: config.model,
       messages: [
         {
           "role": "system",
           "content": promptMsg
         }
       ],
-      max_tokens: 64,
-      temperature: 1,
+      max_tokens: config.maxTokens,
+      temperature: config.temperature,
     });
     
     let hexCodesArray = parseHexCodes(response.data.choices[0].message.content);
