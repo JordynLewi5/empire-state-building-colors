@@ -1,4 +1,4 @@
-# empirestatebuildingcolors
+# empire-state-building-colors
 Fetches the current color scheme for the lights on the [Empire State Building](https://www.esbnyc.com). From the color scheme description, we use OpenAI's API to extract some list of hex codes that best match the description. This is necessary because the color description will often be very verbose.
 
 **Example description:**
