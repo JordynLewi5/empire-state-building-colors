@@ -9,22 +9,16 @@ Fetches the current color scheme for the lights on the [Empire State Building](h
 
 [ '#002D72', '#FF5910', '#FFFFFF' ]
 
-## How to Use
-Make sure [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) is installed on your machine.
+## How to Use (IMPORTANT!)
+1. Make sure [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) is installed on your machine.
 
+2. Navigate to the project directory and run `npm install` to install all dependecies.
 
-*If the node modules are not installed:*
+3. You will need to retrieve your own [OpenAI API key](https://openai.com/blog/openai-api).
 
-Navigate to the project directory and run `npm install` to install all dependecies.
+4. Paste your API key into the empty string found in `config.json` in the root directory of the project.
 
-
-You will need to retrieve your own [OpenAI API key](https://openai.com/blog/openai-api).
-
-
-Paste your API key into the empty string found in `config.json` in the root directory of the project.
-
-
-Run `node index.js` to execute.
+5. Run `node index.js` to execute.
 
 
 ## OpenAI API Caveats
